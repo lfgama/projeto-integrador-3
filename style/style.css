@@ -90,6 +90,16 @@ main section.banner {
     padding: 50px 0;
 }
 
+main section.lojas {
+    padding: 20px 0;
+    background-color: #F3F3F3;
+} 
+
+.lojas-end article {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
 
 footer {
     background-color: #444242; 
