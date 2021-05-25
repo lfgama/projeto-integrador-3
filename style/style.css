@@ -44,6 +44,13 @@ header .logo img {
     margin-bottom: 20px;
 }
 
+header .menu-toggle img {
+    width: 95%;
+    height: 95%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .homebanner {
     text-align: center;
 }
@@ -88,9 +95,15 @@ footer .copyrights {
     font-size: 8px;
 }
 
+footer .menu-footer a {
+    text-decoration: none;
+}
+
 footer a:any-link{
     color: #FFFFFF;
 }
+
+
 
 .main-form {
     padding: 100px 0 0 0;
