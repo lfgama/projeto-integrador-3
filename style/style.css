@@ -76,12 +76,14 @@ main section.banner {
 
 
 footer {
-    /* text-align: center; */
+     text-align: center; 
     background-color: #444242; 
     color: #FFFFFF;
-    padding: 20px;
     display: flex;
-    justify-content: space-around;
+    padding: 50px;
+    white:350px;
+    padding: 20px 20px 20px 50px;
+    height: 150px;
 }
 
 footer .logo-footer {
@@ -96,16 +98,197 @@ footer .copyrights {
 footer a:any-link{
     color: #FFFFFF;
 }
-
-.main-form {
-    padding: 100px 0 0 0;
-    text-align: center;
-    max-width: 100%;
+.wes{
+    display: flex;
+    justify-content: center;
+    margin-right: -200px;
 }
+
+
+
+/* loja jefferson */
+
+.loja {
+    margin-top: 100px;
+   
+  
+}
+
+
 
 .contactinfo {
     font-size: 12px;
 }
+
+
+input{
+    border: 2px solid gray;
+    border-radius: 12px;
+    margin: 5px;
+}
+
+h1{
+    position: absolute;
+}
+
+#icone{
+    float: left;
+    margin-left: 1070px;
+ 
+}
+
+section  {
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.cadastro{
+        padding: 10px;
+    }
+ 
+#apresent{
+    width: 100%;
+    margin-top: 84px;
+}
+
+.p1{
+    padding: 20px;
+    color:#FFAA00;
+    margin-left:60px;
+}
+
+.p2{
+    margin-left:80px;
+}
+ .vantagens{
+     margin-right:500px;
+     background-color: #E5E5E5;
+     width: 300px;
+     height:500px ;
+    
+     
+ }
+
+.conta{
+    display: inline;
+    width: 28%;
+  
+}
+    
+li{
+        padding-bottom: 30px;
+    } 
+
+.bronze {
+        color:#fff;
+        background-color:#AC6819 ;
+        border-radius: 20px 20px 0px 0px;
+        height: 35px;
+        margin-bottom: -16px;
+        width: 300px;
+        height: 60px;
+    }
+   
+ .prata {
+        color:#fff;
+        background-color:#676363 ;
+        border-radius: 20px 20px 0px 0px;
+        height: 35px;
+        margin-bottom: -16px;
+        width: 300px;
+        height: 60px;
+    }
+
+.ouro {
+        color:#fff;
+        background-color:#FFAA00 ;
+        border-radius: 20px 20px 0px 0px;
+        height: 35px;
+        margin-bottom: -16px;
+        width: 300px;
+        height: 60px;
+    }
+
+    h3{
+        padding-top: 20px;
+    }
+  .pagamento{
+      display: flex;
+      width: 1080px;
+      height: 650px;
+      background-color: #8f3c3c0e;
+
+  }
+  
+  .botao-1{
+    border-radius: 40px;
+    background:#ff6300;
+    width: 80px;
+    margin-right: 140px;
+    color: #fff;
+  }
+  button.botao{
+    border-radius: 40px;
+    background:#ff6300;
+    width: 80px;
+    margin-top: 30px;
+    margin-right: 830px;
+    color: #fff;
+    
+}
+
+ /* cadastro-loja*/ 
+.selecione{
+    border-radius: 40px;
+    width: 280px;
+    text-align:center ;
+}
+
+
+ .cadas-for{
+     margin-left: -400px;
+     width: 500px;
+     height: 35px;
+ }
+
+ .cadas-for1{
+   margin-right: 850px;
+  
+ }
+
+ .cadas-for2{
+   
+    margin-right: 760px;  
+}
+/*login*/
+
+.login{
+    margin-top: 140px;
+    margin-bottom: 70px;;
+}
+
+.cor{
+    color:#FFAA00;
+    margin-right: 850px;
+
+} 
+
+.input-login-senha{
+    margin-left: -720px;
+}
+
+.input-login{
+    margin-left: -500px;
+    width: 400px;
+    height: 30px;
+}
+
+
+
 
 @media (max-width: 900px) {
     .container {
